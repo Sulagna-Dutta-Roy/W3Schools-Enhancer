@@ -1,0 +1,38 @@
+/* styles.css */
+
+/* Custom style for highlighting code blocks */
+.highlight {
+    background-color: #ffeb3b;
+    border: 1px solid #fbc02d;
+    padding: 5px;
+    border-radius: 3px;
+    font-family: Consolas, "Courier New", monospace;
+    font-size: 14px;
+  }
+  
+  /* Dark mode styling */
+  body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+  }
+  
+  .dark-mode pre {
+    background-color: #333;
+    color: #e0e0e0;
+  }
+  
+  .dark-mode a {
+    color: #bb86fc;
+  }
+/* styles.css */
+
+/* Highlighted code block style */
+pre code.highlighted {
+  background-color: #ec9090; /* Change to your desired highlight color */
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 10px;
+  display: block;
+  overflow-x: auto;
+  font-family: "Courier New", Courier, monospace;
+}
