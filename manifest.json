@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "W3Schools Enhancer",
+  "version": "1.0",
+  "description": "Enhance your experience on W3Schools with additional features.",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "https://www.w3schools.com/spaces/index.php*"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.w3schools.com/spaces/index.php*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "browser_action": {
+    "default_popup": "popup.html"
+  }
+}
